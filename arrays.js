@@ -47,5 +47,5 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 // creates a new array by removing the last element of another array -- does not modify original array
 function removeElementFromEndOfArray(array) {
-  return array.slice(,array.length - 1);
+  return array.slice(0,array.length - 1);
 }
